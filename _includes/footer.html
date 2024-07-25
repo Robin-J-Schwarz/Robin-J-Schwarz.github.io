@@ -16,12 +16,12 @@
 
       <p><strong>Contact</strong></p>
       <ul class="social-media-list">
-        <li>
+        <!-- <li>
           <a href="mailto:{{ site.email }}">
             <i class="fa fa-envelope-o"></i>
             <span class="username">{{ site.email }}</span>
           </a>
-        </li>
+        </li> -->
 
         {% for social in site.social %}
           {% if social.url != "" %}
@@ -37,10 +37,10 @@
       </ul>
     </div>
 
-    <div class="site-signature">
+    <!-- <div class="site-signature">
       <p class="rss-subscribe text"><strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
       <p class="text">{{ site.description }}</p>
-    </div>
+    </div> -->
 
   </div>
 
