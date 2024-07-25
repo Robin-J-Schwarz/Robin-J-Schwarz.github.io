@@ -9,8 +9,8 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Robin Jesse Schwarz
-subtitle: Portfolio
+title: Portfolio
+subtitle: by Robin Jesse Schwarz
 email: robinjesse.schwarz@uzh.ch
 name: Robin Jesse Schwarz
 description: >
