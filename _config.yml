@@ -76,31 +76,17 @@ descriptions:
 #     desc: Follow me on Twitter            # Description to display as link title, etc
 #     share: true                           # Include in the "Share" section of posts
 social:
-  - name: Twitter
-    icon: twitter
-    username: TheBenCentra
-    url: https://twitter.com/TheBenCentra
-    desc: Follow me on Twitter
-    share: true
-
-  - name: Facebook
-    icon: facebook
-    username: thebencentra
-    url: ""
-    desc: Friend me on Facebook
-    share: true
-
   - name: GitHub
     icon: github
-    username: bencentra
-    url: https://github.com/bencentra
+    username: Robin-J-Schwarz
+    url: https://github.com/Robin-J-Schwarz
     desc: Fork me on GitHub
-    share: false
+    share: true
 
   - name: LinkedIn
     icon: linkedin
-    username: Ben Centra
-    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
+    username: Robin Jesse Schwarz
+    url: https://www.linkedin.com/in/robinjesseschwarz/
     desc: Connect with me on LinkedIn
     share: true
 
@@ -109,7 +95,7 @@ social:
     username: ""
     url: ""
     desc: Add me to your Circles
-    share: true
+    share: false
 
   - name: YouTube
     icon: youtube
@@ -130,7 +116,7 @@ social:
     username: ""
     url: ""
     desc: Follow me on Pinterest
-    share: true
+    share: false
 
   - name: SoundCloud
     icon: soundcloud
@@ -179,7 +165,7 @@ social:
     username: ""
     url: ""
     desc: Share to Reddit
-    share: true
+    share: false
 
   - name: "Hacker News"
     icon: hacker-news
