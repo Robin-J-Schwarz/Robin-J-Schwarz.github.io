@@ -12,7 +12,7 @@ Using the algorithm: $$Q = \sum_{i = 1}^{k}{\sigma_i \bf{u_i} \bf{v_i^T}}$$ we a
 
 
 
-**Read the full report on german [here] (/assets/pdf/Projekt17_GruppeD.pdf)**
+**Read the full report in german [here] (/assets/pdf/Projekt17_GruppeD.pdf)**
 
 ![Skyline](/assets/image/findeFaces/Skylinebild.png)
 ![SquaredDeviation](/assets/image/findeFaces/QuadratischeAbweichung.png)
