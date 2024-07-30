@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Portfolio - Robin Jesse Schwarz"
+title                    : "Portfolio"
 title_separator          : 
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Robin Jesse Schwarz"
@@ -31,7 +31,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
-copyright                : # "copyright" name, defaults to site.title
+copyright                : "Robin Jesse Schwarz" # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
