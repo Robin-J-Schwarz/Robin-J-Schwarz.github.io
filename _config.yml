@@ -20,7 +20,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "Robin Jesse Schwarz"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Robin Jesse Schwarz"
+name                     : "Project Portfolio"
 description              : "HI, here you can find some projects I have worked on over the years."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -68,7 +68,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : true
-search                   : true
+search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
@@ -126,7 +126,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Robin-J-Schwarz"
     - label: "LinkedIn"
-      icon: "fa-brands fa-linkedin"
+      icon: "fab fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/robinjesseschwarz/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
