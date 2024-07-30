@@ -126,7 +126,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Robin-J-Schwarz"
     - label: " LinkedIn"
-      icon: "fab fa-brands fa-linkedin"
+      icon: " fab fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/robinjesseschwarz/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
