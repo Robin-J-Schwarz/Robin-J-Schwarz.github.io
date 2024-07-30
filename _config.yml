@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Robin Jesse Schwarz"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a systems engineer and physics student."
+  bio              : "Systems engineer and physics student."
   location         : "Zurich, Switzerland"
   email            :
   links:
@@ -123,8 +123,8 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      icon: "fas fa-fw fa-linkedin"
+      url: "www.linkedin.com/in/robinjesseschwarz"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -133,7 +133,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/Robin-J-Schwarz"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
