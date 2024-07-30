@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Robin Jesse Schwarz"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Systems engineer and physics student."
+  bio              : "Systems engineer and physics student"
   location         : "Zurich, Switzerland"
   email            :
   links:
@@ -125,7 +125,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Robin-J-Schwarz"
-    - label: "   LinkedIn"
+    - label: "    LinkedIn"
       icon: " fab fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/robinjesseschwarz/"
     - label: "Twitter"
@@ -321,5 +321,5 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: false
+      share: true
       related: true
