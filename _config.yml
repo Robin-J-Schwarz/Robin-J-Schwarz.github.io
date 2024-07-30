@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Portfolio"
+title                    : "Robin Jesse Schwarz"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Robin Jesse Schwarz"
@@ -122,8 +122,11 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Robin-J-Schwarz"
     - label: "LinkedIn"
-      icon: "fa-brands fa-linkedin-square"
+      icon: "fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/robinjesseschwarz/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -131,9 +134,6 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Robin-J-Schwarz"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
