@@ -16,7 +16,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : true
 search                   : # true, false (default)
-search_full_content      : true # true, false (default)
+search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 
@@ -35,14 +35,14 @@ author:
       icon: " fab fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/robinjesseschwarz/"
 
-# Conversion
+
+# -----------------------------------------------------------------------------
+# Conversion from Markdown to HTML
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
-
 # Markdown Processing
 kramdown:
   input: GFM
@@ -53,6 +53,13 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+# Conversion of math noation
+  math_engine: mathjax
+  mathjax:
+    use_asciimath: false
+    preview: TeX
+
+# -----------------------------------------------------------------------------
 
 
 # Outputting
