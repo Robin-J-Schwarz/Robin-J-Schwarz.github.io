@@ -8,11 +8,11 @@ last_modified_at: 2023-11-20
 
 During my last semester in systems engineering I took the course "Advanced analysis and numerics". Me and two class mates calculated the flow of water at 90°C through an espresso filter in 2D. 
 
-**Read the full report in german [here] (/assets/pdf/HANA_Project.pdf)**
+**Read the full report in german [here](/assets/pdf/HANA_Project.pdf)**
 
 
 
-### Equation: Brinkmann-Forchheimer Equation
+### Brinkmann-Forchheimer Equation
 
 $$\frac{1}{\varphi}\partial_t \boldsymbol{u} + \frac{1}{\varphi^2}(\boldsymbol{u} \cdot \nabla)\boldsymbol{u} - \frac{\nu}{\varphi}\Delta\boldsymbol{u} +\frac{1}{\varrho} \nabla p + \frac{\nu}{K}\boldsymbol{u} + \frac{c_F}{\sqrt{K}}\vert \boldsymbol{u} \vert \boldsymbol{u} = 0$$
 
@@ -21,11 +21,11 @@ $$\nabla \cdot \boldsymbol{u} = 0$$
 ### Variables and Constants
 Variables:
 
-$$\boldsymbol{u}$$: Flowrate $$\left[\frac{\text{m}}{\text{s}}\right]$$ 
-$$p$$: Pressure $$\left[\text{Pa} = \frac{\text{kg}}{\text{m}\cdot{s}^2}\right]$$
+$$\boldsymbol{u}$$: Flowrate $$\left[\frac{\text{m}}{\text{s}}\right]$$ \\
+$$p$$: Pressure $$\left[\text{Pa} = \frac{\text{kg}}{\text{m}\cdot{s}^2}\right]$$ \\
 
 Constants:
-$$\varphi$$: Fraction of Fluid $4\in [0,1]$$ $$\left[-\right]$$
+$$\varphi$$: Fraction of Fluid $$4\in [0,1]$$ $$\left[-\right]$$ 
 $$\nu$$: Dynamic Viscosity $$\left[\frac{\text{m}^2}{\text{s}}\right]$$ $$\left(\text{for Water @ 90°C} = 3.248 * 10^{-7}\:\frac{\text{m}^2}{\text{s}}\right)$$ 
 $$\varrho$4: Density $$\left[\frac{\text{kg}}{\text{m}^3}\right]$ $\left(\text{for Water @ 90°C} = 965.31\:\frac{\text{kg}}{\text{m}^3}\right)$$
 $$\text{K}$$: Permeability $$\left[\text{m}^2\right]$$ 
