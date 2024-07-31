@@ -80,4 +80,4 @@ $$\begin{aligned} \int_\Omega \frac{1}{\varphi^2}((\nabla u)u)v + \frac{\nu}{\va
 
 **Read the full report [here](/assets/pdf/ITK213_Final_Release.pdf)**
 
-![example](/assets/image/acronym/converted_image.png)
+
