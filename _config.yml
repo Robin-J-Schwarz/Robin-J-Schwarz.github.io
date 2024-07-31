@@ -6,7 +6,7 @@ locale                   : "en-US"
 title                    : " "
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Robin Jesse Schwarz"
-description              : "HI, here you can find some projects I have worked on over the years."
+description              : "Hi, here you can find some projects I have worked on over the years."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -88,7 +88,6 @@ pagination:
 
 # Plugins (previously gems:)
 plugins:
-
   - jekyll-include-cache
 
 # Archives
@@ -107,17 +106,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+
 
 # Defaults
 defaults:

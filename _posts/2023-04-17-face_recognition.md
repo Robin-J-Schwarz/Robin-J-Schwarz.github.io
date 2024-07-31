@@ -6,7 +6,7 @@ categories:
 last_modified_at: 2023-04-17
 ---
 
-During my studies in systems engineering me and a fellow student worked on an machine learning algorithm to detect faces in a picture. The algorithm is based on singular value decomposition (SVD). SVD returns for a matrix $Q$ of form $\mathbb{R}^{n\times m}$ the matrices $U^{n\times n}$, $\Sigma^{n\times m}$ and $V^{T}$ of form $\mathbb{R}^{m\times m}$.<br> 
+During my studies in systems engineering me and a fellow student worked on an machine learning algorithm to detect faces in a picture. The algorithm is based on singular value decomposition (SVD). SVD returns for a matrix $Q$ of form $\mathbb{R}^{n\times m}$ the matrices $U^{n\times n}$, $\Sigma^{n\times m}$ and $V^{T}$ of form $\mathbb{R}^{m\times m}$.
 
 Using the algorithm: $$Q = \sum_{i = 1}^{k}{\sigma_i \bf{u_i} \bf{v_i^T}}$$ we are able to diminish the matrix $Q$, which is the image we want to process. $Q$  
 
