@@ -6,7 +6,7 @@ locale                   : "en-US"
 title                    : " "
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Robin Jesse Schwarz"
-description              : "Hi, here you can find some projects I have worked on over the years."
+description              : "Hi, here you can find some projects I have worked on over the years and think are worth presenting."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
