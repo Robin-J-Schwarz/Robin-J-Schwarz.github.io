@@ -6,13 +6,15 @@ categories:
 last_modified_at: 2023-04-17
 ---
 
-During my studies in systems engineering me and a fellow student worked on a machine learning algorithm to detect faces in a picture. The algorithm is based on singular value decomposition (SVD). SVD returns for a matrix $$Q$$ of form $$\mathbb{R}^{n\times m}$$ the matrices $$U^{n\times n}$$, $$\Sigma^{n\times m}$$ and $$V^{T}$$ of form $$\mathbb{R}^{m\times m}$$.
+During my studies in systems engineering me and a fellow student worked on a machine learning algorithm to detect faces in a picture. The algorithm is based on singular value decomposition (SVD) which is used in applications like the least square method. With a similar approach we generate from a regression of gray-scale faces a "middle face" from a dataset of 300 images of format 68x56 px. In order to do that we use the algorithm $$Q = \sum_{i = 1}^{k}{\sigma_i \bf{u_i} \bf{v_i^T}}$$, where $$\sigma_i$$ is the i-th singular value, $$\bf{u_i}$$ is the i-th colum vector of matrix $$U$$ and $$\bf{v_i^T}$$ is the i-th row vector of matrix $$V$$ from the SVD. By only using the first couple of singular values (making $$k$$ much smaller than the original amount of singular values from our SVD) we are able to diminish the dimension of our image matrix. From this diminished form we can calculate the norm between the "middle face" matrix and the diminished matrix of the image we want to classify if there is a face in the image. From the test data we then calculate a threshold which defines if the image is identified as a face or not (in our case the threshold was set at $$\varepsilon = 14.0$$ due to all faces having a $$\varepsilon_{max}$$ lower then $$12.329$$ and the reference image without a face having an $$\varepsilon = 22.269$$). This application allows us to automatically classify if an image contains a face or not.
 
-Using the algorithm: $$Q = \sum_{i = 1}^{k}{\sigma_i \bf{u_i} \bf{v_i^T}}$$ we are able to diminish the original matrix of the grey-scale image, which is the image we want to process, to a lower dimension. Using the norm of the diminished matrix and compared to a previous diminished matrix using 300 test images, we are able to set a threshold which defines if the picture contains a face or not. For our dataset of images our threshold $$\varepsilon$$ the value was determined through testing to be $$\varepsilon = 14.0$$.
+Visualised "middle face":
+![MiddleFace](/assets/image/findeFaces/middle.png)
 
-Using this threshold we are able to find a face in a bigger image using a kernel which scans the image. Comparing the diminished matrix of each kernel with the previous testing matrix we can determine were the face is.  
+Norm of the test dataset of images containing a face and an example of a correctly classified image with a face:
+![Norm](/assets/image/findeFaces/IdentifiedFace.png)
 
-### Result
+Using this application we are now able to find a face in a bigger image using a kernel which scans the image and compares each cutout to the middle image.   
 
 Skyline image where the face should be found:
 ![Skyline](/assets/image/findeFaces/Skylinebild.png)
