@@ -14,7 +14,7 @@ Visualised "middle face":
 Norm of the test dataset of images containing a face and an example of a correctly classified image with a face:
 ![Norm](/assets/image/findeFaces/IdentifiedFace.png)
 
-Using this application we are now able to find a face in a bigger image using a kernel which scans the image and compares each cutout to the middle image. The cutout where the norm is minimal receives the highest probability to contain the face.   
+Using this application we are now able to find a face in a bigger image using a kernel which scans the image and compares each cutout to the middle image. The cutout where the norm is minimal receives the highest probability to contain   
 
 Skyline image where the face should be found:
 ![Skyline](/assets/image/findeFaces/Skylinebild.png)

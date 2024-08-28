@@ -25,8 +25,8 @@ $$p$$ : Pressure $$\left[\text{Pa} = \frac{\text{kg}}{\text{m}\cdot{s}^2}\right]
 Constants:
 
 $$\varphi$$ : Fraction of Fluid $$4\in [0,1]$$ $$\left[-\right]$$  
-$$\nu$$ : Dynamic Viscosity $$\left[\frac{\text{m}^2}{\text{s}}\right]$$ $$\left(\text{for H$$_2$$O @ 90°C} = 3.248 \cdot 10^{-7}\:\frac{\text{m}^2}{\text{s}}\right)$$  
-$$\varrho$$ : Density $$\left[\frac{\text{kg}}{\text{m}^3}\right]$$ $$\left(\text{for H$$_2$$O @ 90°C} = 965.31\:\frac{\text{kg}}{\text{m}^3}\right)$$  
+$$\nu$$ : Dynamic Viscosity $$\left[\frac{\text{m}^2}{\text{s}}\right]$$ $$\left(\text{for Water @ 90°C} = 3.248 \cdot 10^{-7}\:\frac{\text{m}^2}{\text{s}}\right)$$  
+$$\varrho$$ : Density $$\left[\frac{\text{kg}}{\text{m}^3}\right]$$ $$\left(\text{for Water @ 90°C} = 965.31\:\frac{\text{kg}}{\text{m}^3}\right)$$  
 $$\text{K}$$ : Permeability $$\left[\text{m}^2\right]$$  
 $$c_F$$ : Forchheimerconstant $$\left[-\right]$$  
 $$d_P$$ : Particle diameter $$\left[\text{m}\right]$$  
