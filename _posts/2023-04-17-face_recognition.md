@@ -12,10 +12,18 @@ Using the algorithm: $$Q = \sum_{i = 1}^{k}{\sigma_i \bf{u_i} \bf{v_i^T}}$$ we a
 
 Using this threshold we are able to find a face in a bigger image using a kernel which scans the image. Comparing the diminished matrix of each kernel with the previous testing matrix we can determine were the face is.  
 
+### Result
+
+Skyline image where the face should be found:
+![Skyline](/assets/image/findeFaces/Skylinebild.png)
+
+Least square of each kernel scanning the skyline image:
+![LeastSquare](/assets/image/findeFaces/QuadratischeAbweichung.png)
+
+Kernel identified as face from algorithm:
+![FoundImage](/assets/image/findeFaces/foundFace.png)
+
 **Read the full report in german [here](/assets/pdf/Projekt17_GruppeD.pdf)**
 
-![Skyline](/assets/image/findeFaces/Skylinebild.png)
-![SquaredDeviation](/assets/image/findeFaces/QuadratischeAbweichung.png)
-![FoundFaceInImage](/assets/image/findeFaces/foundFace.png)
 
 
