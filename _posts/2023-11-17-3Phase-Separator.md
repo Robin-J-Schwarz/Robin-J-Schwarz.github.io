@@ -1,5 +1,4 @@
 ---
-layout: base
 title: "Programming a Beckhoff PLC for an oil separator system"
 search: true
 categories: 

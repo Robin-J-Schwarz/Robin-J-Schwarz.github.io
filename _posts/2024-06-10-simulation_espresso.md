@@ -1,5 +1,4 @@
 ---
-layout: base
 title:  "Simulation of an espresso filter using the Brinkmann-Forchheimer equation"
 search: true
 categories: 

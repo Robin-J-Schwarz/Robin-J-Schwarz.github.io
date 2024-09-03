@@ -1,5 +1,4 @@
 ---
-layout: base
 title: "Drawing an Image with a UR5 using ROS and OpenCV"
 search: true
 categories: 
