@@ -4,16 +4,13 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Settings
 locale                   : "en-US"
 title                    : "Robin Jesse Schwarz"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Robin Jesse Schwarz"
-description              : "Hi, here you can find some projects I have worked on over the years and think are worth presenting."
+description              : "Here you can find some projects I have worked on over the years and think are worth presenting."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Portfolio" # overrides the website title displayed in the masthead, use " " for no title
 copyright                : "Robin Jesse Schwarz" # "copyright" name, defaults to site.title
 atom_feed:
-  path                   : # blank (default) uses feed.xml
   hide                   : true
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 
@@ -21,7 +18,7 @@ remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 author:
   name             : "Robin Jesse Schwarz"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Systems engineer and physics student"
+  bio              : "Systems engineer and physics student <br /> Here you can find some projects I have worked on over the years and think are worth presenting."
   location         : "Zurich, Switzerland"
   email            :
   links:
@@ -55,61 +52,11 @@ kramdown:
   mathjax:
     use_asciimath: false
     preview: TeX
-
 # -----------------------------------------------------------------------------
-
-
-# Outputting
-permalink: /:categories/:title/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Pagination with jekyll-paginate
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-
-# Pagination with jekyll-paginate-v2
-# See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
-#   for configuration details
-pagination:
-  # Set enabled to true to use paginate v2
-  # enabled: true
-  debug: false
-  collection: 'posts'
-  per_page: 200
-  permalink: '/page/:num/'
-  title: ':title - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-  category: 'posts'
-  tag: ''
-  locale: ''
-  trail:
-    before: 2
-    after: 2
-
 
 # Plugins (previously gems:)
 plugins:
   - jekyll-include-cache
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path>/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
 
 
 # Defaults
