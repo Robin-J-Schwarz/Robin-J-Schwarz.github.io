@@ -1,4 +1,5 @@
 ---
+layout: base
 title:  "Detect faces in gray-scale images using SVD"
 search: true
 categories: 
