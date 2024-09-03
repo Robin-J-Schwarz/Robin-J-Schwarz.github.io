@@ -3,16 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- MathJax Script for rendering LaTeX-style math equations -->
+    <!-- MathJax Script for rendering LaTeX-style math equations -->
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script" async></script>
     {% include head.html %}
   </head>
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
+  <body 
+    class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" 
+    dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}" 
+    style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
     
-    <div class="initial-content">
+    <div class="initial-content" style="width: 100%; max-width: 1000px; margin: 0 auto;">
       {{ content }}
     </div>
 
@@ -21,6 +25,7 @@
         {% include_cached footer.html %}
       </footer>
     </div>
+
     {% include scripts.html %}
   </body>
 </html>
