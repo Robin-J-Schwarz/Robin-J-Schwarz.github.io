@@ -12,15 +12,19 @@ During my exchange semester in Norway at the University of Agder (UiA), I took t
 ### Results
 
 The UR5 and the tooltip used:
+
 ![Robot](/assets/image/roboticsUIA/UR5andTooltip.png)
 
 The reference image used for the project:
+
 ![Reference Image](/assets/image/roboticsUIA/ReferenceImage.png)
 
 The Path planned by the algorithm:
+
 ![Path](/assets/image/roboticsUIA/Path.png)
 
 The final result:
+
 ![Path](/assets/image/roboticsUIA/FinalResult.png)
 
 **Read the full report [here](/assets/pdf/Report_Robotics_UiA.pdf)**

@@ -77,6 +77,7 @@ $$\begin{aligned} \int_\Omega \frac{1}{\varphi^2}((\nabla u)u)v + \frac{\nu}{\va
 ### Possible Solution
 
 Here you can see a possible solution for the flow rate of an espresso filter with 7 holes in this plane:
+
 ![flowrate](/assets/image/espresso/Velocity.png)
 
 
