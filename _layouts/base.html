@@ -15,11 +15,9 @@
 
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
-
-    <!-- Display the title on the page -->
-    <h1>{{ page.title }}</h1>
     
     <div class="initial-content" style="width: 100%; max-width: 1000px; margin: 0 auto;">
+      {{ page.title }}
       {{ content }}
     </div>
 
