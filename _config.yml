@@ -19,7 +19,7 @@ remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 author:
   name             : "Robin Jesse Schwarz"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Systems engineer and physics student - Here are some projects I have worked on over the years that I think are worth presenting."
+  bio              : "Systems engineer and physics student \n\n Here are some projects I have worked on over the years that I think are worth presenting."
   location         : "Zurich, Switzerland"
   email            :
   links:
