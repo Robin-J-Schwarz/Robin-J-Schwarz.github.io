@@ -1,6 +1,6 @@
 ---
 layout: base
-title:  "Simulation of an espresso filter using the Brinkmann-Forchheimer equation"
+title:  "Simulation of an espresso filter using Brinkmann-Forchheimers equation"
 search: true
 categories: 
   - Simulation
