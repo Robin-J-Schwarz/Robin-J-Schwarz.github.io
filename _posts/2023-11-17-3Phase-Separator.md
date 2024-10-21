@@ -17,4 +17,7 @@ User Human Machine Interface:
 
 ![HMI](/assets/image/IndustrialIT_UIA/HMI.png)
 
+Physical Separator
+![Separator](/assets/image/IndustrialIT_UIA/Physical_separator.jpeg)
+
 **Read the full report [here](/assets/pdf/Industrial_IT_Project_Report.pdf)**
