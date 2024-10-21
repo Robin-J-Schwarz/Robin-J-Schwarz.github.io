@@ -17,6 +17,10 @@
     {% include_cached masthead.html %}
     
     <div class="initial-content" style="width: 100%; max-width: 1000px; margin: 0 auto;">
+      <!-- Add the title here above the content -->
+      <h1>{{ page.title }}</h1>  <!-- Display the title above the content -->
+
+      <!-- The content of the page goes here -->
       {{ content }}
     </div>
 

@@ -7,8 +7,6 @@ categories:
 last_modified_at: 2024-06-12
 ---
 
-# Simulation of an espresso filter using the Brinkmann-Forchheimer equation
-
 During my last semester in Systems Engineering, I took the course 'Advanced Analysis and Numerics' with a focus on Partial Differential Equations (PDEs). The end of term exam was a group project and each group of three was given a different problem to solve. My group was given the task of calculating the flow rate and pressure drop inside an espresso filter in 2D using Python and NGsolve. We were given the geometry of the filter and the first step was to solve for the weak equation (we solve for a time-independent solution). We then implemented the solver in Python and solved for different initial conditions, the ratio of water to coffee in the filter and the size and number of holes in the filter. 
 
 **Read the full report in german [here](/assets/pdf/HANA_Project.pdf)**

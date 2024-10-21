@@ -7,8 +7,6 @@ categories:
 last_modified_at: 2023-11-23
 ---
 
-# Drawing an Image with a UR5 using ROS and OpenCV
-
 During my exchange semester in Norway at the University of Agder (UiA), I took the Robotics course. The course focused on the concepts of industrial robot kinematics and path planning. For the final project, I and two fellow students programmed a UR5 robot to draw a picture with a marker. The project involved setting up the ROS environment on Ubuntu 20.04, the image processing pipeline using OpenCV and path planning from a random black and white image. With the path calculated, we then wrote the script to run the program first in a simulation and then on the physical UR5. 
 
 ### Results
