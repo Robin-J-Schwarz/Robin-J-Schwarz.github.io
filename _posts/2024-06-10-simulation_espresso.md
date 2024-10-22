@@ -82,7 +82,7 @@ $$\nabla \cdot \boldsymbol{u}\: \to \int_\Omega (\nabla \cdot \boldsymbol{u})\:q
 This results in the complete weak equation
 \begin{equation}
 \tag{4}
-\begin{aligned} \int_\Omega \frac{1}{\varphi^2}((\nabla u)u)v + \frac{\nu}{\varphi} \langle \nabla u, \nabla v \rangle  + \frac{1}{\varrho}(\nabla \cdot v)p + \frac{\nu}{K} u \: v + \frac{c_F}{\sqrt{K}} \vert u \vert u \: v\ + (\nabla \cdot \boldsymbol{u})\:q \:d\boldsymbol{x} = 0 \\ \forall v \in V = P^{2+} \subset H^1(\Omega),\:\forall q \in Q = P^{1,dg} \subset H^1(\Omega) \end{aligned}
+\begin{aligned} \int_\Omega \frac{1}{\varphi^2}((\nabla u)u)v + \frac{\nu}{\varphi} \langle \nabla u, \nabla v \rangle  + \frac{1}{\varrho}(\nabla \cdot v)p + \frac{\nu}{K} u \! v + \frac{c_F}{\sqrt{K}} \vert u \vert u \! v + (\nabla \cdot \boldsymbol{u})q \! d\boldsymbol{x} = 0 \\ \forall v \in V = P^{2+} \subset H^1(\Omega),\:\forall q \in Q = P^{1,dg} \subset H^1(\Omega) \end{aligned}
 \end{equation}
 
 ### Possible Solution
