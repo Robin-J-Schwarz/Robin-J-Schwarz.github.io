@@ -13,9 +13,15 @@ During my last semester in Systems Engineering, I took the course 'Advanced Anal
 
 ### Brinkmann-Forchheimer Equation
 
-$$\frac{1}{\varphi}\partial_t \boldsymbol{u} + \frac{1}{\varphi^2}(\boldsymbol{u} \cdot \nabla)\boldsymbol{u} - \frac{\nu}{\varphi}\Delta\boldsymbol{u} +\frac{1}{\varrho} \nabla p + \frac{\nu}{K}\boldsymbol{u} + \frac{c_F}{\sqrt{K}}\vert \boldsymbol{u} \vert \boldsymbol{u} = 0$$
+\begin{equation}
+\tag{1}
+\frac{1}{\varphi}\partial_t \boldsymbol{u} + \frac{1}{\varphi^2}(\boldsymbol{u} \cdot \nabla)\boldsymbol{u} - \frac{\nu}{\varphi}\Delta\boldsymbol{u} +\frac{1}{\varrho} \nabla p + \frac{\nu}{K}\boldsymbol{u} + \frac{c_F}{\sqrt{K}}\vert \boldsymbol{u} \vert \boldsymbol{u} = 0
+\end{equation}
 
-$$\nabla \cdot \boldsymbol{u} = 0$$
+\begin{equation}
+\tag{2}
+\nabla \cdot \boldsymbol{u} = 0
+\end{equation}
 
 ### Variables and Constants
 Variables:
@@ -53,7 +59,10 @@ $$\boldsymbol{u}(\boldsymbol{x})\in V = P^{2+} \subset H^1(\Omega)$$
 $$p(\boldsymbol{x}) \in Q = P^{1,dg} \subset H^1(\Omega)$$  
 
 The strong equation is given by:  
-$$ \frac{1}{\varphi^2}(\boldsymbol{u} \cdot \nabla)\boldsymbol{u} - \frac{\nu}{\varphi}\Delta\boldsymbol{u} +\frac{1}{\varrho} \nabla p + \frac{\nu}{K}\boldsymbol{u} + \frac{c_F}{\sqrt{K}}\vert \boldsymbol{u} \vert \boldsymbol{u} + \nabla \cdot \boldsymbol{u} = 0.$$
+\begin{equation}
+\tag{3}
+\frac{1}{\varphi^2}(\boldsymbol{u} \cdot \nabla)\boldsymbol{u} - \frac{\nu}{\varphi}\Delta\boldsymbol{u} +\frac{1}{\varrho} \nabla p + \frac{\nu}{K}\boldsymbol{u} + \frac{c_F}{\sqrt{K}}\vert \boldsymbol{u} \vert \boldsymbol{u} + \nabla \cdot \boldsymbol{u} = 0.
+\end{equation}
 We neglect the time-dependent part of the equation, as we only calculate a stationary solution to the equation. 
 
 The individual components of the weak equation are calculated as follows:
@@ -71,8 +80,10 @@ $$\frac{c_F}{\sqrt{K}}\vert u \vert u \: \to \frac{c_F}{\sqrt{K}}\int_\Omega \ve
 $$\nabla \cdot \boldsymbol{u}\: \to \int_\Omega (\nabla \cdot \boldsymbol{u})\:q \:d\boldsymbol{x}\quad \forall q \in Q = P^{1,dg} \subset H^1(\Omega)$$
 
 This results in the complete weak equation
-
-$$\begin{aligned} \int_\Omega \frac{1}{\varphi^2}((\nabla u)u)v + \frac{\nu}{\varphi} \langle \nabla u, \nabla v \rangle  + \frac{1}{\varrho}(\nabla \cdot v)p + \frac{\nu}{K} u \: v + \frac{c_F}{\sqrt{K}} \vert u \vert u \: v\ + (\nabla \cdot \boldsymbol{u})\:q \:d\boldsymbol{x} = 0 \\ \forall v \in V = P^{2+} \subset H^1(\Omega),\:\forall q \in Q = P^{1,dg} \subset H^1(\Omega) \end{aligned}$$
+\begin{equation}
+\tag{4}}
+\begin{aligned} \int_\Omega \frac{1}{\varphi^2}((\nabla u)u)v + \frac{\nu}{\varphi} \langle \nabla u, \nabla v \rangle  + \frac{1}{\varrho}(\nabla \cdot v)p + \frac{\nu}{K} u \: v + \frac{c_F}{\sqrt{K}} \vert u \vert u \: v\ + (\nabla \cdot \boldsymbol{u})\:q \:d\boldsymbol{x} = 0 \\ \forall v \in V = P^{2+} \subset H^1(\Omega),\:\forall q \in Q = P^{1,dg} \subset H^1(\Omega) \end{aligned}
+\end{equation}
 
 ### Possible Solution
 
